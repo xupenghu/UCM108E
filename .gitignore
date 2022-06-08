@@ -1,0 +1,10 @@
+.vscode
+.codelite
+Debug
+*.o
+rt-thread/tools
+*.uzf
+*.bin
+*.map
+*.mk
+
