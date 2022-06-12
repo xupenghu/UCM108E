@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CodeLite_Project InternalType="RISCV" Name="rtthread_nav" Version="11000">
+  <Plugins>
+    <Plugin Name="qmake">
+      <![CDATA[00010001N0005Debug000000000000]]>
+    </Plugin>
+  </Plugins>
   <Description/>
   <Dependencies/>
   <VirtualDirectory Name="applications">
@@ -235,7 +240,7 @@
       </Linker>
       <ResourceCompiler Options=""/>
     </GlobalSettings>
-    <Configuration Name="Debug" CompilerType="win_pulpino" DebuggerType="GNU gdb debugger" Type="Executable" BuildCmpWithGlobalSettings="append" BuildLnkWithGlobalSettings="append" BuildResWithGlobalSettings="append">
+    <Configuration Name="Debug" CompilerType="Cross GCC ( riscv32-unknown-elf )" DebuggerType="GNU gdb debugger" Type="Executable" BuildCmpWithGlobalSettings="append" BuildLnkWithGlobalSettings="append" BuildResWithGlobalSettings="append">
       <Compiler Options="-g -Os -Wall  -march=rv32imfc -ffunction-sections  -Iplatform -Ilibraries/inc " C_Options="-g -Os -Wall  -march=rv32imfc -ffunction-sections -D _WTG_OPEN  -Iplatform -Ilibraries/inc " Assembler="-c -g  -march=rv32imfc  -Iplatform -Ilibraries/inc " Required="yes" PreCompiledHeader="" PCHInCommandLine="no" PCHFlags="" PCHFlagsPolicy="0">
         <IncludePath Value="."/>
         <IncludePath Value="/opt/riscv/riscv32-unknown-elf/include"/>

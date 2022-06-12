@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeLite_Workspace Database="" Name="rtthread_nav" Version="10000">
+  <Project Active="Yes" Name="rtthread_nav" Path="rtthread_nav.project"/>
+  <BuildMatrix>
+    <WorkspaceConfiguration Name="Debug" Selected="yes">
+      <Environment/>
+      <Project Name="rtthread_nav" ConfigName="Debug"/>
+      <Project Name="NavProc" ConfigName="Debug"/>
+    </WorkspaceConfiguration>
+  </BuildMatrix>
+</CodeLite_Workspace>

@@ -1,25 +1,26 @@
--Ig:\7_flash_code\gprs_8088\9_out\pulp-riscv-gnu-toolchain-v2.5.0-gcc9.2.0\riscv32-unknown-elf\include\c++\9.2.0
--Ig:\7_flash_code\gprs_8088\9_out\pulp-riscv-gnu-toolchain-v2.5.0-gcc9.2.0\riscv32-unknown-elf\include\c++\9.2.0\riscv32-unknown-elf
--Ig:\7_flash_code\gprs_8088\9_out\pulp-riscv-gnu-toolchain-v2.5.0-gcc9.2.0\riscv32-unknown-elf\include\c++\9.2.0\backward
--Ig:\7_flash_code\gprs_8088\9_out\pulp-riscv-gnu-toolchain-v2.5.0-gcc9.2.0\lib\gcc\riscv32-unknown-elf\9.2.0\include
--Ig:\7_flash_code\gprs_8088\9_out\pulp-riscv-gnu-toolchain-v2.5.0-gcc9.2.0\lib\gcc\riscv32-unknown-elf\9.2.0\include-fixed
--Ig:\7_flash_code\gprs_8088\9_out\pulp-riscv-gnu-toolchain-v2.5.0-gcc9.2.0\riscv32-unknown-elf\include
--IG:\7_flash_code\2_gps_8188\gnss_customer
--IG:\opt\riscv\riscv32-unknown-elf\include
--IG:\7_flash_code\2_gps_8188\gnss_customer\${ProjectPath}\Lib
--IG:\7_flash_code\2_gps_8188\gnss_customer\${ProjectPath}\Other\inc
--IG:\7_flash_code\2_gps_8188\gnss_customer\applications
--IG:\7_flash_code\2_gps_8188\gnss_customer\libraries\HAL_Drivers
--IG:\7_flash_code\2_gps_8188\gnss_customer\libraries\UC8088_HAL_Driver\inc
--IG:\7_flash_code\2_gps_8188\gnss_customer\rt-thread\components\drivers\include
--IG:\7_flash_code\2_gps_8188\gnss_customer\rt-thread\components\finsh
--IG:\7_flash_code\2_gps_8188\gnss_customer\rt-thread\components\libc\compilers\common
--IG:\7_flash_code\2_gps_8188\gnss_customer\rt-thread\components\libc\compilers\newlib
--IG:\7_flash_code\2_gps_8188\gnss_customer\board
--IG:\7_flash_code\2_gps_8188\gnss_customer\rt-thread\include
--IG:\7_flash_code\2_gps_8188\gnss_customer\rt-thread\libcpu\risc-v\uc8088
--IG:\7_flash_code\2_gps_8188\gnss_customer\platform
--IG:\7_flash_code\2_gps_8188\gnss_customer\libraries\inc
+-Id:\program
+-ID:\GitHub\UCM108E
+-ID:\opt\riscv\riscv32-unknown-elf\include
+-ID:\GitHub\UCM108E\${ProjectPath}\Lib
+-ID:\GitHub\UCM108E\${ProjectPath}\Other\inc
+-ID:\GitHub\UCM108E\applications
+-ID:\GitHub\UCM108E\libraries\HAL_Drivers
+-ID:\GitHub\UCM108E\libraries\UC8088_HAL_Driver\inc
+-ID:\GitHub\UCM108E\rt-thread\components\drivers\include
+-ID:\GitHub\UCM108E\rt-thread\components\finsh
+-ID:\GitHub\UCM108E\rt-thread\components\libc\compilers\common
+-ID:\GitHub\UCM108E\rt-thread\components\libc\compilers\newlib
+-ID:\GitHub\UCM108E\board
+-ID:\GitHub\UCM108E\rt-thread\include
+-ID:\GitHub\UCM108E\rt-thread\libcpu\risc-v\uc8088
+-ID:\GitHub\UCM108E\platform
+-ID:\GitHub\UCM108E\libraries\inc
+-I"d:\program files (x86)\ucchip_ide\riscv-gnu-toolchain\riscv32-unknown-elf\include\c++\9.2.0"
+-I"d:\program files (x86)\ucchip_ide\riscv-gnu-toolchain\riscv32-unknown-elf\include\c++\9.2.0\riscv32-unknown-elf"
+-I"d:\program files (x86)\ucchip_ide\riscv-gnu-toolchain\riscv32-unknown-elf\include\c++\9.2.0\backward"
+-I"d:\program files (x86)\ucchip_ide\riscv-gnu-toolchain\lib\gcc\riscv32-unknown-elf\9.2.0\include"
+-I"d:\program files (x86)\ucchip_ide\riscv-gnu-toolchain\lib\gcc\riscv32-unknown-elf\9.2.0\include-fixed"
+-I"d:\program files (x86)\ucchip_ide\riscv-gnu-toolchain\riscv32-unknown-elf\include"
 -DRT_USING_NEWLIB
 -DHAVE_CCONFIG_H
 -D
