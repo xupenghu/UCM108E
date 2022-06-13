@@ -85,7 +85,7 @@
 
 1. 双击上面下载的exe可执行文件，安装急成开发环境
 
-![img](.\image\setup1.png)
+![img](./image/setup1.png)
 
 2. 按照提示一路next直到安装完成，这里没啥注意的安装完成即可
 
